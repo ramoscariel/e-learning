@@ -1,0 +1,93 @@
+/* Jobs.css */
+
+.jobs-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.jobs-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333333;
+    text-align: center;
+}
+
+.create-button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+    background-color: #45a049;
+}
+
+.create-button:active {
+    background-color: #3e8e41;
+}
+
+.create-button:focus {
+    outline: 2px solid #4caf50;
+    outline-offset: 2px;
+}
+
+.jobs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-table th, .jobs-table td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+.jobs-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333333;
+}
+
+.jobs-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.jobs-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+.edit-button:hover {
+    background-color: #1e88e5;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: #ffffff;
+}
+
+.delete-button:hover {
+    background-color: #e53935;
+}

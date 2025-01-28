@@ -1,0 +1,55 @@
+/* CourseForm.css */
+
+.course-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.course-form-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333333;
+  text-align: center;
+}
+
+.course-form-label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555555;
+}
+
+.course-form-label select,
+.course-form-label input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+
+.course-form-label input[type="date"] {
+  font-family: inherit;
+}
+
+.course-form-button {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.course-form-button:hover {
+  background-color: #0056b3;
+}
